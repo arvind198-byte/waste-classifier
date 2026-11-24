@@ -42,7 +42,7 @@ export default function App() {
       setError("Please choose an image file.");
       return;
     }
-    if (next.size > 10 * 1024 * 1024) {
+    if (next.size > 4 * 1024 * 1024) {
       setError("Please choose an image under 10 MB.");
       return;
     }
